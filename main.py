@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
-model = load_model(filepath="C:/Users/Jules/Documents/Cours/master5/pythonProject/model")
+model = load_model(filepath="model")
 drawing_mode = "freedraw"
 stroke_width = 3
 stroke_color = "#fff"
